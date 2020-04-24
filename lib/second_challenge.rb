@@ -6,9 +6,14 @@ def second_challenge
          age: => "53"
       },
       :matriarch => {
-        :name: "Lady Montague"
+        name: "Lady Montague",
+        age: "54"
       },
-      :hero => {},
+      :hero => {
+        name: "Lord Capulet",
+        age: "50",
+        status: "alive"
+      },
       :hero_friends => []
       }, 
     :capulet => {
